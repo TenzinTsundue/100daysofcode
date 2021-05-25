@@ -8,19 +8,19 @@ Just started with the plan to start 100 days coding challange <br>
 
 > 25 May 2021 | Day 1
 
-/ is used for escape character in python
-\` -> Single quote
-\\ -> Backslash
-\n -> New line
-\r -> Carriage return
-\t -> Tab
-\b -> Backspace
-\f -> Form feed
-\ooo -> Octal value
-\xhh -> Hex value
+/ is used for escape character in python<br>
+\` -> Single quote<br>
+\\ -> Backslash<br>
+\n -> New line<br>
+\r -> Carriage return<br>
+\t -> Tab<br>
+\b -> Backspace<br>
+\f -> Form feed<br>
+\ooo -> Octal value<br>
+\xhh -> Hex value<br>
 
-String concatenation using +
-Indentation : Spaces at the beginning of a code. use 4-space indents and no hard tab characters
+String concatenation using +<br><br>
+Indentation : Spaces at the beginning of a code. use 4-space indents and no hard tab characters<br>
 
 Errors types in Python
 - AssertionError
@@ -59,18 +59,20 @@ thonny app for debugging step by step
 print("hello" + input("What is your name" ))
 ```
 - comment best practice #comment (shortcut)
-# singel line comment
+```
+#singel line comment
+
 """
 Multiple line
 comments
 looks like this
 """
-
+```
 ```
 print(len(input("what is your name: ")))
 ```
 
-swap place shortcut
+swap place shortcut<br>
 a,b=b,a
 
 
