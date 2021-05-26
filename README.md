@@ -75,6 +75,62 @@ print(len(input("what is your name: ")))
 swap place shortcut<br>
 a,b=b,a
 
+> 26 May 2021 | Day 2
 
+Python keywords list<br>
+False await else import pass None break except in raise <br>
+True class finally is return and continue for lambda try <br>
+as def from nonlocal while asset del global not with async <br>
+elif if or yield<br>
+
+Data types<br>
+integers | float | complex number | string | boolean <br>
+```
+#string
+subsript: bracket notation
+a="apple"
+a[1]
+'p'
+#integer
+123_456 is same as 123456
+#float
+3124.25
+#boolean
+True and False
+#complex number
+2+4j
+```
+
+Can't concatenate str with int<br>
+so need type casting<br>
+a=12<br>
+str(a) #now a is a string <br>
+ascii() bin() bool() chr() complex() float() hex() int() oct() ord() repr() str() type()<br>
+
+Mathematical operation<br>
+() > ** > *=/ > -=+<br>
+
+functions in python<br>
+len<br>
+round(1.223, 2)<br>
+```
+type(4/2)
+<class 'float'>
+type(4//2)  #integer division operator
+<class 'int'>
+
+a=12
+a+=2
+>>a
+14
+
+#f string
+name = "tenzin"
+print(f"your name is {name}")
+
+format function
+"{:.2f}".format(123.3434)
+123.34
+```
 
 
