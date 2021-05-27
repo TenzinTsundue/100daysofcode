@@ -132,5 +132,24 @@ format function
 "{:.2f}".format(123.3434)
 123.34
 ```
+> 26 May 2021 | Day 3
+```
+Condition 
+if condition:
+    do this
+elif condition:
+    do this
+else:
+    do this
+
+Relational Operators
+> < >= <= == !=
+
+logical Operators
+and
+or 
+not
+```
+
 
 
