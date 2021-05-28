@@ -1,0 +1,66 @@
+> 27 May 2021 | Day 4
+Random Module
+today final project: Rock paper scissors
+```
+import random
+rand_int = random.randint(1,10) #random int between 1 to 10 with 10 inclusive
+rand_float = random.random()   #between 0-1 with 1 exclusive
+```
+#my_module.py
+pi = 3.14
+#main.py
+import my_module.py
+circle = pi * r * 2
+
+list[] - data structure
+fruits = [item1, item2]
+list methods
+- index()
+- append()
+- extend()
+- insert()
+- remove()
+- count()
+- pop()
+- reverse()
+- sort()
+- copy()
+- clear()
+>len(fruits)
+>random.choice(fruits)
+
+Nested list
+Grocery = [[fruits],[vegetables]]
+
+Unlike function, methods are called on an object. Becasue of method is called on an object, it can access the data with it
+Unlike method which can alter the ocjects state, python function doesn't do this and normally operates on it.
+
+indexing nested list
+a = [[1,2],[3,4]]
+a[1,0]
+>3
+
+Random methods<br>
+- seed()
+- getstate()
+- setstate()
+- getrandbits()
+- randrange()
+- randint()
+- choice()
+- choices()
+- shuffle()
+- sample()
+- random()
+- uniform()
+- triangular()
+- betavariate()
+- expovariate()
+- gammavariate()
+- gauss()
+- lognornvariate()
+- normalvariate()
+- vonmisesvariate()
+- paretovariate()
+- weibullvariate()
+

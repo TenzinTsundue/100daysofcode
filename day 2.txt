@@ -1,0 +1,52 @@
+Python keywords list
+False await else import pass None break except in raise 
+True class finally is return and continue for lambda try 
+as def from nonlocal while asset del global not with async 
+elif if or yield
+
+Data types
+integers | float | complex number | string | boolean 
+#string
+subsript: bracket notation
+a="apple"
+a[1]
+'p'
+#integer
+123_456 is same as 123456
+#float
+3124.25
+#boolean
+True and False
+#complex number
+2+4j
+
+Can't concatenate str with int
+so need type casting
+a=12
+str(a) #now a is a string 
+ascii() bin() bool() chr() complex() float() hex() int() oct() ord() repr() str() type()
+
+Mathematical operation
+() > ** > *=/ > -=+
+
+functions in python
+len
+round(1.223, 2)
+
+type(4/2)
+<class 'float'>
+type(4//2)  #integer division operator
+<class 'int'>
+
+a=12
+a+=2
+>>a
+14
+
+#f string
+name = "tenzin"
+print(f"your name is {name}")
+
+format function
+"{:.2f}".format(123.3434)
+123.34
