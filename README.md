@@ -150,6 +150,53 @@ and
 or 
 not
 ```
+> 27 May 2021 | Day 4
+
+Random Module<br>
+today final project: Rock paper scissors<br>
+```
+import random
+rand_int = random.randint(1,10) #random int between 1 to 10 with 10 inclusive
+rand_float = random.random()   #between 0-1 with 1 exclusive
+```
+```
+#my_module.py
+pi = 3.14
+#main.py
+import my_module.py
+circle = pi * r * 2
+```
+
+list[] - data structure<br>
+fruits = [item1, item2]<br>
+list methods<br>
+- index()
+- append()
+- extend()
+- insert()
+- remove()
+- count()
+- pop()
+- reverse()
+- sort()
+- copy()
+- clear()
+>len(fruits)<br><br>
+>random.choice(fruits)<br>
+
+Nested list<br><br>
+Grocery = [[fruits],[vegetables]]<br>
+<br>
+**Unlike function, methods are called on an object. Becasue of method is called on an object, it can access the data with it
+Unlike method which can alter the ocjects state, python function doesn't do this and normally operates on it.**
+<br>
+indexing nested list<br>
+```
+a = [[1,2],[3,4]]
+a[1,0]
+>3
+```
+
 
 
 
