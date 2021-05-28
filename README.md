@@ -196,7 +196,29 @@ a = [[1,2],[3,4]]
 a[1,0]
 >3
 ```
-
+Random methods<br>
+- seed()
+- getstate()
+- setstate()
+- getrandbits()
+- randrange()
+- randint()
+- choice()
+- choices()
+- shuffle()
+- sample()
+- random()
+- uniform()
+- triangular()
+- betavariate()
+- expovariate()
+- gammavariate()
+- gauss()
+- lognornvariate()
+- normalvariate()
+- vonmisesvariate()
+- paretovariate()
+- weibullvariate()
 
 
 
