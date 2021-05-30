@@ -235,3 +235,23 @@ range(1,11)  #1,2,...,10
 
 range(1, 100, 2)
 ```
+
+> 30 May 2021 | Day 6
+```
+function
+def my_function():	#define function
+    #Do this
+    #then this
+my_functin()		#calling function
+ 
+Code blocks(indentation) 
+four space
+
+while loops #loop till condition is met
+while condition:
+    #do this
+```
+List of inbuilt python function
+-
+-
+-
