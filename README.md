@@ -255,3 +255,7 @@ List of inbuilt python function
 -
 -
 -
+
+> 5 May 2021 | Day 7
+
+create hangeman in python
