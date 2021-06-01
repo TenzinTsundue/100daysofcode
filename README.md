@@ -273,3 +273,58 @@ def my_function():
 my_function()
 
 #math module
+- math.ceil(x): round up and its integer too
+- math.comb(n, k)
+- math.copysigh(x, y): return value of x but sign of y
+- math.fabs(x): return absolute value of x
+- math.factorial(x)
+- math.floor(x): show integer value or round down
+- math.fmod(x,y)
+- math.frexp(x)
+- math.fsum(iterable)
+- math.gcd(*integers)
+- math.isclose(a,b,*,rel_tol=1e-09,abs_tol=0.0)
+- math.isfinite(x) : return True if x is neither an infinity nor a NaN
+- math.isinf(x)
+- math.isnan(x)
+- math.isqrt(n)
+- math.1cm(*integers)
+- math.1dexp(x, i)
+- math.modf(x)
+- math.nextafter(x, y)
+- math.perm(n, k=None)
+- math.prod(iterable, *, start=1)
+- math.remainder(x, y)
+- math.trunc(x)
+- math.ulp(x)
+- math.exp(x): retuen e raised to the power of x
+- math.expm1(x)
+- math.log(x[,base]): return the natural logarithm of x to the base e
+- math.log1p(x)
+- math.lag2(x)
+- math.log10(x)
+- math.pow(x, y)
+- math.sqrt(x): return the square root of x
+- math.acos(x): return arc cosine of x in radians
+- math.asin(x)
+- math.atan(x)
+- math.atan2(y, x)
+- math.cos(x): return the cosine of x radians
+- math.dist(p, q)
+- math.pypot("coordinates)
+- math.sin(x)
+- math.tan(x)
+- math.degrees(x): convert angle x from radians to degrees
+- math.radians(x): convert angle x from degrees to radians
+- math.acosh(x)
+- math.cosh(x)
+- math.erf(x): return error function at x
+- math.erfc(x)
+- math.gamma(x)
+- math.lgamma(x)
+#constants
+- math.pi: 3.141592...
+- math.e: 2.71828...
+- math.tau: 6.283185...
+- math.inf: floating point poistive infinity
+- math.nan: floating point not a number(NaN) value
