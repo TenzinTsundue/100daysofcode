@@ -1,0 +1,96 @@
+> 2 June 2021 | Day 9
+
+Dictionaries and Nesting
+
+project: Secret Auction (Highest bid will win, without knowing each other bidding)
+
+key and value
+{key : value}
+
+>>> dict = {"a": "apple",
+... "b": "ball",
+... "c": "cat"}
+>>> dict["c"]
+'cat'
+>>> dict["d"] = "dog"
+>>> dict
+{'a': 'apple', 'b': 'ball', 'c': 'cat', 'd': 'dog'}
+
+```
+import pprint 
+pp = pprint.PrettyPrinter(indent=1)
+
+student_score = {
+	"Harry": 81,
+	"Ron": 78,
+	"Hermione": 99,
+	"Draco": 74,
+	"Neville": 62
+}
+
+student_grading = {}
+
+for i in student_score:
+	if student_score[i] > 90:
+		student_grading[i]= "Outstanding"
+	elif student_score[i] > 80:
+		student_grading[i]= "Exceeds Expectation"
+	elif student_score[i] > 70:
+		student_grading[i]= "Acceptable"
+	else:
+		student_grading[i]= "Fail"
+
+pp.pprint(student_grading)
+```
+
+Nesting a List in a Dictionary
+```
+travel_log = {
+"France": {"cities_visited": ["Paris", "Lille", "Dijon"], "total_visit: 7},
+"Germany": {"cities_visited": ["Berlin", "Hamburg", "Stuttgart"], "total_visit:2"}
+}
+```
+
+Nesting a dict in a list
+```
+travel_log = [
+{
+ "country": "France",
+ "cities_visited": ["Paris", "Lille", "Dijon"], 
+ "total_visit": 7
+},
+{
+ "country": "Germany",
+ "cities_visited": ["Berlin", "Hamburg", "Stuttgart"],
+ "total_visit": 2
+}
+]
+```
+
+```
+travel_log = [
+{
+ "country": "France",
+ "visits": 7,
+ "cities": ["Paris", "Lille", "Dijon"]
+},
+{
+ "country": "Germany",
+ "visits": 2,
+ "cities": ["Berlin", "Hamburg", "Stuttgart"]
+}
+]
+
+def add_new_country(country, visits, cities):
+	new_country = {}
+	new_country["country"] = country
+	new_country["visits"] = visits
+	new_country["cities"] = cities
+	travel_log.append(new_country)
+
+
+add_new_country("Russia", 3, ["Moscow", "Saint Petersberg", "Sattrigas"])
+print(travel_log)
+```
+
+
