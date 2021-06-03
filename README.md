@@ -424,6 +424,24 @@ add_new_country("Russia", 3, ["Moscow", "Saint Petersberg", "Sattrigas"])
 print(travel_log)
 ```
 
+> 6 june 2021 | Day 10 🥳
+
+function with output
+return
+
+docstring: description for a function (documenting your function) 
+```
+def my_function():
+    """Description on the my_function and 
+    its also callded docstring"""
+    #do this
+```
+
+print vs return
+
+while loop, flag and recursion
+
+
 
 
 
