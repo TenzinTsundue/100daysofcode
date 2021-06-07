@@ -35,8 +35,11 @@ INSTAGRAM_HANDLE = "@tentsun12"
 
 > 6 June 2021 | Day 13 
 
-Debugging
+Debugging couple of codes, took less then half and hour
 
+> 7 June 2021 | Day 14
+
+Just made a simple python version of higher and lower game (instagram follower)
 
 
 
