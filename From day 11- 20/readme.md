@@ -41,5 +41,7 @@ Debugging couple of codes, took less then half and hour
 
 Just made a simple python version of higher and lower game (instagram follower)
 
+> 8 June 2021 | Day 15
 
+Create a virtual coffee machine where you put which coffee you want and add coin, check the resources and give you coffee if all criteria are met.a
 
