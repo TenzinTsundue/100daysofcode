@@ -73,4 +73,34 @@ my_screen = Screen()
 # print(my_screen.canvheight)
 my_screen.exitonclick()
 ```
+> 11 June 2021 | Day 17
+
+```python
+# quiz project using class and OOP
+
+# Class is a blueprint to create objects
+
+class User:			# class name is PascalCase
+	def __init__(self, user_id, user_name): 	 # initialize or consturctor, special function 
+	    self.user_id = user_id
+	    self.user_name = user_name
+	    self.follower = 0
+	    self.following = 0
+
+	def follow(self, user):
+		user.follower += 1
+		self.following += 1 
+
+	def show(self):
+		return f'user name: {self.user_name}, follower: {self.follower}, following: {self.following}'
+
+
+user_1 = User(1, "tentsun12")
+user_2 = User(2, "choedon7777")
+
+user_1.follow(user_2)
+
+print(user_1.show())
+print(user_2.show())
+```
 
