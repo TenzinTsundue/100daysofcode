@@ -109,3 +109,7 @@ print(user_2.show())
 Turtle package study
 Create draw with turtle and turtle race game.
 
+> 13 June 2021 | day 20
+
+Snake game, first part
+
