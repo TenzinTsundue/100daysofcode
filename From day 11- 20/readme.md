@@ -104,3 +104,8 @@ print(user_1.show())
 print(user_2.show())
 ```
 
+> 12 June 2021 | day 19
+
+Turtle package study
+Create draw with turtle and turtle race game.
+
