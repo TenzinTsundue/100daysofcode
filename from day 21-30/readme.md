@@ -33,4 +33,4 @@ class Fish(Animal):
 ```
 
 COMPLETED SNAKE GAME<br>
-![snake game](https://user-images.githubusercontent.com/40035716/121854394-b92efd00-cd0f-11eb-838b-8e2592ba7dd1.PNG = 100x)
+![snake game](https://user-images.githubusercontent.com/40035716/121854394-b92efd00-cd0f-11eb-838b-8e2592ba7dd1.PNG =100x20)
