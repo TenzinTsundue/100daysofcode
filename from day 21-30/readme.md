@@ -34,3 +34,10 @@ class Fish(Animal):
 
 **COMPLETED SNAKE GAME**<br>
 <img src="https://user-images.githubusercontent.com/40035716/121854394-b92efd00-cd0f-11eb-838b-8e2592ba7dd1.PNG" width="250">
+
+> 15 June 2021 | Day 22
+
+Pong game <br>
+<img src="https://user-images.githubusercontent.com/40035716/122014797-252b6700-cddd-11eb-92fb-d6213b894fa8.PNG" width="250">
+
+
