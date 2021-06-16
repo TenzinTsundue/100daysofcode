@@ -40,4 +40,10 @@ class Fish(Animal):
 Pong game <br>
 <img src="https://user-images.githubusercontent.com/40035716/122014797-252b6700-cddd-11eb-92fb-d6213b894fa8.PNG" width="250">
 
+> 16 June 2021 | Day 23
+
+Turtle crossing game <br>
+<img src="https://user-images.githubusercontent.com/40035716/122172645-954df180-ce9e-11eb-960d-172221ffd56e.PNG" width="250">
+
+
 
