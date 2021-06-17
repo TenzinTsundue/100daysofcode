@@ -45,5 +45,33 @@ Pong game <br>
 Turtle crossing game <br>
 <img src="https://user-images.githubusercontent.com/40035716/122172645-954df180-ce9e-11eb-960d-172221ffd56e.PNG" width="250">
 
+> 17 June 2021 | day 24
+
+File
+
+```python
+file = open('file.txt')
+contents = file.read()
+print(contents)
+file.close()
+```
+file read
+```python
+with open('file.txt') as file:
+	contents = file.read()
+	print(contents)
+```
+file write
+```python
+with open('day24.txt', mode="w") as file:   # w for write mode
+	file.write("New text")
+```
+file append
+```python
+with open('day24.txt', mode="a") as file:   # a for append mode
+	file.write("\nNew line")
+``
+
+
 
 
