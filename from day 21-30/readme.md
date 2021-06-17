@@ -70,8 +70,15 @@ file append
 ```python
 with open('day24.txt', mode="a") as file:   # a for append mode
 	file.write("\nNew line")
-``
+```
 
+directory 
+```python
+with open('./Input/Names/invited_names.txt') as file:
+    name = file.read()
+    name_list = name.split("\n")
 
-
-
+for name in name_list:
+    with open(f'./Output/ReadyToSend/{name}.txt', mode='w') as file:
+        file.write(f'Dear {name},\n\nYou are invited to my birthday this Saturday.\n\nHope you can make it!\n\nTenzin')
+```
