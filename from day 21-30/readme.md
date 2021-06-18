@@ -82,3 +82,56 @@ for name in name_list:
     with open(f'./Output/ReadyToSend/{name}.txt', mode='w') as file:
         file.write(f'Dear {name},\n\nYou are invited to my birthday this Saturday.\n\nHope you can make it!\n\nTenzin')
 ```
+
+> 18 June 2021 | Day 25
+
+```pyhton
+with open('weather_data.csv') as file:
+    data = file.readlines()
+    print(data)
+```
+
+```python
+# import csv
+
+with open('weather_data.csv') as file:
+    data = csv.reader(file)
+    temperature = []
+    for row in data:
+        if row[1] != 'temp':
+	    temperature.append(row[1])
+     print(temperature)
+```
+
+```python
+import pandas as pd 
+
+data = pd.read_csv('weather_data.csv')
+
+print(data[data.temp == data.temp.max()])
+```
+
+```python
+import pandas as pd
+
+data = pd.read_csv('Central_Park_Squirrel_Data.csv')
+
+unique_breed = data['Primary Fur Color'].unique()
+unique_breed = unique_breed[1:]
+
+gray_count = len(data[data['Primary Fur Color'] == 'Gray'])
+cinnamon_count = len(data[data['Primary Fur Color'] == 'Cinnamon'])
+black_count = len(data[data['Primary Fur Color'] == 'Black'])
+
+unique_count = [gray_count, cinnamon_count, black_count]
+
+df = pd.DataFrame(list(zip(unique_breed, unique_count)), columns = ['Color', 'Count'])
+
+print(df)
+```
+Created the US guess state learning game <br>
+<img src="https://user-images.githubusercontent.com/40035716/122550510-60ce6700-d051-11eb-8751-de486fbc211f.PNG" width="400">
+
+The code is at this [link]()
+
+
