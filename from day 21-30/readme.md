@@ -92,7 +92,7 @@ with open('weather_data.csv') as file:
 ```
 
 ```python
-# import csv
+import csv
 
 with open('weather_data.csv') as file:
     data = csv.reader(file)
@@ -132,6 +132,6 @@ print(df)
 Created the US guess state learning game <br>
 <img src="https://user-images.githubusercontent.com/40035716/122550510-60ce6700-d051-11eb-8751-de486fbc211f.PNG" width="400">
 
-The code is at this [link]()
+The code is at this [link](https://github.com/TenzinTsundue/100daysofcode/tree/main/from%20day%2021-30/US%20State%20guessing%20game)
 
 
