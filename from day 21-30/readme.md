@@ -134,4 +134,40 @@ Created the US guess state learning game <br>
 
 The code is at this [link](https://github.com/TenzinTsundue/100daysofcode/tree/main/from%20day%2021-30/US%20State%20guessing%20game)
 
+>  19 June 2021 | Day 26
+
+List and dictionary comprehension
+
+Goal: Nato phonetic alphabet
+
+```
+numbers = [1, 2, 3]
+
+# new_list = []
+# for n in numbers:
+# 	add_1 = n + 1
+# 	new_list.append(add_1)
+
+new_list = [n + 1 for n in numbers]  # list comprehension syntex
+```
+
+```
+name = "tenzin"
+new_lsit = [ letter for letter in name]   # we can also do string comprehension
+```
+
+```
+range_list = [item * 2 for item in range(1, 5)]  # we can loop through range too
+```
+
+conditional list comprehension
+```
+new_list = [new_item for item in lsit if test]   # list comprehension with condition 
+
+# example
+names = ['Alex', 'Beth', 'Ten', 'Tensang', 'Macqueen', 'Freddie', 'Dave']
+
+short_names = [name for name in names if len(name) < 5]
+```
+
 
