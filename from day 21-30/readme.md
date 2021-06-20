@@ -170,4 +170,40 @@ names = ['Alex', 'Beth', 'Ten', 'Tensang', 'Macqueen', 'Freddie', 'Dave']
 short_names = [name for name in names if len(name) < 5]
 ```
 
+Dictonary Comprehension
+
+```python
+new_dict = {new_key: new_value for item in list}
+new_dict = {new_key: new_value for (key, value) in dict.items()}
+'''
+
+```bash
+>>> names = ['Alex', 'Beth', 'Ten', 'Tensang', 'Macqueen', 'Freddie', 'Dave']
+>>> import random
+>>> student_score = {student: random.randint(40, 80) for student in names}
+>>> student_score
+{'Alex': 72, 'Beth': 40, 'Ten': 48, 'Tensang': 55, 'Macqueen': 60, 'Freddie': 61, 'Dave': 52}
+
+>>> pass_student = {student: score for (student, score) in student_score.items() if score > 60}
+>>> pass_student
+{'Alex': 72, 'Freddie': 61}
+```
+
+```bash
+>>> sentence = "What is the Airspeed Velocity of an Unladen Swallow?"
+>>> sentence.split()
+['What', 'is', 'the', 'Airspeed', 'Velocity', 'of', 'an', 'Unladen', 'Swallow?']
+>>> sentence_list = sentence.split()
+>>> result = {word: len(word) for word in sentence_list}
+>>> result
+{'What': 4, 'is': 2, 'the': 3, 'Airspeed': 8, 'Velocity': 8, 'of': 2, 'an': 2, 'Unladen': 7, 'Swallow?': 8}
+```
+
+```bash
+weather_c = {    "Monday": 12,    "Tuesday": 14,    "Wednesday": 15,    "Thursday": 14,    "Friday": 21,    "Saturday": 22,    "Sunday": 24,}
+>>> weather_f ={day: (in_cel * 9/5)+ 32 for (day, in_cel) in weather_c.items()}
+>>> weather_f
+{'Monday': 53.6, 'Tuesday': 57.2, 'Wednesday': 59.0, 'Thursday': 57.2, 'Friday': 69.8, 'Saturday': 71.6, 'Sunday': 75.2}
+```
+
 
