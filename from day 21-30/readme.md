@@ -206,4 +206,122 @@ weather_c = {    "Monday": 12,    "Tuesday": 14,    "Wednesday": 15,    "Thursda
 {'Monday': 53.6, 'Tuesday': 57.2, 'Wednesday': 59.0, 'Thursday': 57.2, 'Friday': 69.8, 'Saturday': 71.6, 'Sunday': 75.2}
 ```
 
+> 21 June 2021 | Day 27
+
+Arguments with Default values
+
+```python
+def my_function(a=1, b=2, c=3):
+	# do this with a, b, c
+
+
+my_function(c=10)   # when calling a, b have default value 1, 2 respectively and c change to 10
+
+# another example
+
+def foo(a, b=4, c=6):
+	print(a, b, c)
+
+foo(4, 9)
+
+# Output: 4, 9, 6
+```
+
+Unlimited Arguments / *args /Unlimited Positional Argument
+
+```python
+def add(*args):
+	sum = 0
+	for n in args:
+		sum += n
+	return sum
+
+print(add(1, 2, 4, 5, 6))
+
+def show_second(*args):
+	print(args[1])   #positional argument
+
+show_second(1, 2, 3, 4)
+
+# Output: 2
+```
+
+Many Keyworded Arguments / **kwargs
+
+```python
+def my_functin(**kwargs):
+	for key, value in kwargs.items():
+		print(key)
+		print(value)
+
+# example
+
+def calulate(n, **kwargs):
+	n += kwargs['add']
+	n *= kwargs['mul']
+	n /= kwargs['div']
+	n -= kwargs['sub']
+	print(n)
+
+calculate(2, add=3, mul=5)
+
+# Output: 25
+
+# another example with class
+
+class Car:
+
+	def __init__(self, **kw):
+		self.make = kw.get("make")  # if there is no make, then it will show None insted or error
+		self.model = kw["model"]
+
+my_car = Car(model="GT-R")
+print(my_car.model)
+print(my_car.make)
+
+# Output: GT-R
+          None
+```
+
+With Tkinter
+```python
+from tkinter import *
+
+#Creating a new window and configurations
+window = Tk()
+window.title("Widget Examples")
+window.minsize(width=500, height=500)
+window.config(padx=20, pady=20)
+
+#Labels
+
+my_label = Label(text="I am a Label", font=("Arial", 24, "bold"))
+my_label.grid(row=0, column=0)
+
+#Buttons
+
+def action():
+	text = entry.get()
+	my_label.config(text= text)
+
+#calls action() when pressed
+button = Button(text="Click Me", command=action)
+button.grid(row=0, column=2)
+
+button_2 = Button(text="Click me too")
+button_2.grid(row=1, column=1)
+
+#Entries
+
+entry = Entry(width=30)
+entry.grid(row=2, column=3)
+
+window.mainloop()
+```
+
+Build GUI app to convert miles into km
+
+<img src="https://user-images.githubusercontent.com/40035716/122738814-f2cbaf00-d29f-11eb-8009-b41206b024eb.PNG" width="400">
+
+
 
