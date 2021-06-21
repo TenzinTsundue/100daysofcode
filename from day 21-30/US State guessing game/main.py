@@ -33,6 +33,7 @@ all_states = data.state
 for state in all_states:
 	if state not in state_corrected:
 	    state_to_learn.append(state) 
-
+# state_to_learn = [state_to_learn.append(state) for state in all_states if state not in state_corrected]     # with list comprehension
+	
 df = pd.DataFrame(state_to_learn, columns =['State'])
 df.to_csv('list_to_learn.csv')
