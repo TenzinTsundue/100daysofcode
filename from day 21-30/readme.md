@@ -323,5 +323,11 @@ Build GUI app to convert miles into km
 
 <img src="https://user-images.githubusercontent.com/40035716/122738814-f2cbaf00-d29f-11eb-8009-b41206b024eb.PNG" width="400">
 
+> 21 June 2021 | Day 28
+
+Create pomodoro app using tkinter
+
+<img src="https://user-images.githubusercontent.com/40035716/122758571-94f69180-d2b6-11eb-8562-5b9a150cbdf3.PNG" width="300">
+
 
 
