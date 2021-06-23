@@ -1,32 +1,24 @@
-name: "units-test"
+name: Code Quality
+
 on:
-  pull_request:
   push:
-    branches:
-      - master
-      - "releases/*"
+    paths:
+      - "**.py"
 
 jobs:
-  # unit tests
-  units:
+  lint:
+    name: Python Lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: npm ci
-      - run: npm test
-
-  # test action works running from the graph
-  test:
-    name: "Lint Test"
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
       - uses: actions/setup-python@v2
         with:
           python-version: "3.8"
-      - uses: ./
+      - name: Run flake8
+        uses: julianwachholz/flake8-action@v2
         with:
-          checkName: "Lint Test"
-          isTest: true
+          checkName: "Python Lint"
+          path: path/to/files
+          config: path/to/flake8.ini
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
