@@ -335,5 +335,62 @@ Create password manager app with tkinter, messagebox, pyperclip
 
 <img src="https://user-images.githubusercontent.com/40035716/122877694-83fc5d80-d354-11eb-96c6-a52b5e0d7283.PNG" width="300">
 
+> 23 June 2021 | Day 30
+
+Error and exception
+
+```python
+try:   # Something taht might cause an exception
+	file = open('a_file.txt')
+	a_dictonary = {'key': 'value'}
+	print(a_dictonary["not_here_key"])
+except FileNotFoundError:   # Do this if there was an exception
+	file = open('a_file.txt', 'w')
+	file.write("something")
+except KeyError as error_message:
+	print(f"The key {error_message} does not exist.")
+else:   # Do this if there were no exceptions
+	content = file.read()
+	print(content)
+finally:   # Do this no matter what happens
+	file.close() 
+	print("file was closed.")
+```
+
+Raise own exception
+```python
+if height > 3:
+	raise ValueError("Human height can not be over 3 meters.")
+```
+
+Example:
+```python
+fruits = ["Apple", "Pear", "Orange"]
+
+def make_pie(index):
+	try:
+		fruit = fruits[index]
+	except IndexError:
+		print("Fruit Pie")
+	else:
+		print(fruit + "pie")
+
+make_pie(4)
+```
+
+JSON (Java Script Object Notation)
+- is basically a nested list and dictionary
+
+```
+write
+	json.dump()
+read
+	json.load() 
+update
+	json.update()
+```
+<img src="https://user-images.githubusercontent.com/40035716/123101635-e424f980-d451-11eb-8b7b-7d6522360dba.PNG" width="300">
+
+![password manger completed](https://user-images.githubusercontent.com/40035716/123101635-e424f980-d451-11eb-8b7b-7d6522360dba.PNG)
 
 
