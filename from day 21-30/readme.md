@@ -389,8 +389,12 @@ read
 update
 	json.update()
 ```
+
+Added search functin to the previous code
+
+wored with json file, instead of txt file.
+
 <img src="https://user-images.githubusercontent.com/40035716/123101635-e424f980-d451-11eb-8b7b-7d6522360dba.PNG" width="300">
 
-![password manger completed](https://user-images.githubusercontent.com/40035716/123101635-e424f980-d451-11eb-8b7b-7d6522360dba.PNG)
 
 
