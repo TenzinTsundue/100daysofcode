@@ -1,7 +1,7 @@
 def funone():
-  print(2)
+  print("1")
 
 def funtwo():
-    pass
+    print("2")
   
 print("Hello World")
