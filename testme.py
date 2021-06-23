@@ -1,5 +1,5 @@
 def funone():
-  pass
+  print(2)
 
 def funtwo():
     pass
