@@ -12,7 +12,8 @@ Technology use
 > 26 June 2021 | Day 32
 
 sending email using smtplib and datetime module
-```pyhton
+
+```python
 # only work after modefying the security of your mail accout
 
 import smtplib
@@ -25,7 +26,7 @@ with smtplib.SMTP("smtp.gmail.com") as connection:
 	connection.login(user=my_email, password=my_password)
 	connection.sendmail(
 		from_addr=my_email, 
-		to_addrs="tentsun0@gmail.com", 
+		to_addrs="reciever@gmail.com", 
 		msg="Subject:First test\n\nThis is the body of my email"
 	)
 ```
