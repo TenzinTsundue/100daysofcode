@@ -42,3 +42,26 @@ day_of_week = now.weekday()   # 0 Monday, 1 Tuesday...6 Sunduy
 data_of_birth = dt.datetime(year=1995, month=7, day=16, hour=10)
 print(data_of_birth)
 ```
+
+> 28 June 2021 | Day 33
+
+**API: Application Programming Interface**
+
+Is a set of commands, functions, protocols, and objects that programmers can user to create a software or interact with an external system
+
+Response Codes (HTTP status code)
+- 1xx: Information
+- 2xx: Success
+- 3xx: Redirectrion
+- 4xx: Client Error
+- 5xx: Server Error
+
+```python
+print(response.status_code)
+response.raise_for_status()
+```
+
+Some api accept API parameter 
+
+
+
