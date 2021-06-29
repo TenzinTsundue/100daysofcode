@@ -63,5 +63,33 @@ response.raise_for_status()
 
 Some api accept API parameter 
 
+> 29 June 2021 | Day 34
+
+Type hint and arrow
+
+```python
+age: int
+name: str 
+.
+.
+.
+age= "string"   # will show warning/error
+```
+
+```python
+
+
+def police_check(age: int) -> bool:   # This function is expected to return boolen (Type hint)
+	if age>18:
+		can_drive = True
+	else:
+		can_drive = False
+	return can_drive
+  # return "A string"    # will show warning and error 
+```
+
+Quizzer app using API and GUI
+
+<img src="https://user-images.githubusercontent.com/40035716/123772653-a6a8ec00-d8e9-11eb-8281-fb092c46f0af.PNG" width=300>
 
 
