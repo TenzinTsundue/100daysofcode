@@ -92,4 +92,18 @@ Quizzer app using API and GUI
 
 <img src="https://user-images.githubusercontent.com/40035716/123772653-a6a8ec00-d8e9-11eb-8281-fb092c46f0af.PNG" width=300>
 
+> 30 June 2021 | Day 35
+
+API keys, Authentication, Enviroment Variables and sending SMS
+
+Enviroment Variable
+- convenience
+- security
+
+```bash
+$ env
+$ export OWM_API_KEY=d99573693fd6195ac4ecnottherealone
+$ export TWILIO_AUTH_TOKEN=d99573693fd6195ac4enottherealone
+```
+
 
