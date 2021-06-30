@@ -40,7 +40,7 @@ for i in range(0,12):
 		                .create(
 		                     body="It's going to rain today. Remember to bring an umbrella☔",
 		                     from_='+15106741159',
-		                     to='+917807038820'
+		                     to='{your registered phone number}'
 		                 )
 		print(message.status)
 	break
