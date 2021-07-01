@@ -106,4 +106,12 @@ $ export OWM_API_KEY=d99573693fd6195ac4ecnottherealone
 $ export TWILIO_AUTH_TOKEN=d99573693fd6195ac4enottherealone
 ```
 
+> 1 July 2021 | Day 36
 
+Create an app to get specific stock price change bewtween last two days and check news related to that stock company and share the detail through a sms.
+
+what we use:
+- for stockpice: https://www.alphavantage.co/query
+- for news: https://newsapi.org/v2/everything
+- for sms: twilio
+- 
