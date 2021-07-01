@@ -16,7 +16,7 @@ NEWS_API_KEY = "3f564c1ee8c740f2b9403c27bdc6443b"
 # https://newsapi.org/v2/everything?q=apple&from=2021-06-30&to=2021-06-30&sortBy=popularity&apiKey=3f564c1ee8c740f2b9403c27bdc6443b
 
 account_sid = "ACd3c24d52621263c342b84d920551b28d"
-auth_token = "ae25a82545b83cdb46c2d4765c1b5cdf"
+auth_token = "YOUR AUTH KEY"
 
 parameter = {
 	"function": "TIME_SERIES_DAILY_ADJUSTED",
@@ -73,8 +73,8 @@ client = Client(account_sid, auth_token)
 message = client.messages \
                 .create(
                      body=f"{STOCK}: {percentage_difference} \nBrief: {text}",
-                     from_='+15106741159',
-                     to='+917807038820'
+                     from_='+YOUR TWILIO NUMBER',
+                     to='+YOUR REGISTERED PHONE NUMBER'
                  )
 
 print(message.status)
