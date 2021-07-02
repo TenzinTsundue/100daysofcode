@@ -114,4 +114,14 @@ what we use:
 - for stockpice: https://www.alphavantage.co/query
 - for news: https://newsapi.org/v2/everything
 - for sms: twilio
-- 
+
+> 2 July 2021 | Day 37
+
+Advance Authentication Requests
+- GET requests.get()
+- POST requests.post()
+- PUT requests.put()   # update
+- DELETE requests.delete()
+
+Pixela - habit tracker like github daily activity tracker
+
