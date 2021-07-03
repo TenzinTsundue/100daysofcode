@@ -125,3 +125,11 @@ Advance Authentication Requests
 
 Pixela - habit tracker like github daily activity tracker
 
+> 3 July 2021 | Day 38
+
+Today we edit google sheet with sheety api and made a program to update your exercise using nutritinix api.
+- newtritionix.com
+- sheety.co
+- google sheet
+
+
