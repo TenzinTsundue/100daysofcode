@@ -132,4 +132,5 @@ Today we edit google sheet with sheety api and made a program to update your exe
 - sheety.co
 - google sheet
 
+> 4 July 2021 | Day 39
 
