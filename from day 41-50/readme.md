@@ -7,9 +7,9 @@ web development( class already taken )
 Web scraping with Beautiful Soup
 - When we need data from the website and it doesn't offer api, then we can use HTMP parser like Beautiful Soup
 
-**Beautiful Soup 4 Documentation**[link](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+**Beautiful Soup 4 Documentation** [link](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
-```pyhton
+```python
 from bs4 import BeautifulSoup
 # import lxml
 
