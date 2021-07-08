@@ -5,7 +5,7 @@ web development( class already taken )
 > 8 July 2021 | Day 45
 
 Web scraping with Beautiful Soup
-- When we need data from the website and it doesn't offer api, then we can use HTMP parser like Beautiful Soup
+- When we need data from the website and it doesn't offer api, then we can use HTML parser like Beautiful Soup
 
 **Beautiful Soup 4 Documentation** [link](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
