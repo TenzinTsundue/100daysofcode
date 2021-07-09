@@ -57,3 +57,19 @@ print(shopping_url)
 heading = soup.select(".heading")
 print(heading)
 ```
+
+> 9 July 2021 | Day 46
+
+Robots.txt
+- tells search engine crawlers which URLs the crawler can accesss on your site. This is used mainly to avoid overloading your site with requests.
+
+```
+URL https://www.billboard.com/robots.txt
+
+result:
+User-agent: *
+Disallow: /wp/wp-admin/
+Allow: /wp/wp-admin/admin-ajax.php
+```
+
+Musical Time Machine Project
