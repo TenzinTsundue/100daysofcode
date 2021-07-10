@@ -73,3 +73,7 @@ Allow: /wp/wp-admin/admin-ajax.php
 ```
 
 Musical Time Machine Project
+
+> 10 July 2021 | Day 47
+
+Create an amazom item price drop notifyier through email.
