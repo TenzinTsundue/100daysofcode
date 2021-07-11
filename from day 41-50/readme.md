@@ -107,3 +107,5 @@ Find Element
 - find elemetn by xpath
 
 Find Elements
+
+[Cookie Clicker](https://gist.github.com/angelabauer/affb3ce61bc79ada90dea26052c27c2b)
