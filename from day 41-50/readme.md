@@ -77,3 +77,33 @@ Musical Time Machine Project
 > 10 July 2021 | Day 47
 
 Create an amazom item price drop notifyier through email.
+
+> 11 July 2021 | Day 48
+
+Selenium Webdriver browser and Game playing bot
+
+Download chrome driver and specify a location in your computer
+
+- automate the browser like human.
+
+[Selenium Documentation](https://www.selenium.dev/documentation/en/)
+
+```python
+from selenium import webdriver
+
+chrome_driver_path = "chromedriver.exe"
+driver = webdriver.Chrome(executable_path=chrome_driver_path)
+
+driver.get("https://www.amazon.com")
+
+# driver.close()   # close single tab
+driver.quit()   # quit the entire program
+```
+Find Element 
+- find element by id
+- find element by name
+- find element by class name
+- find element by css selector
+- find elemetn by xpath
+
+Find Elements
